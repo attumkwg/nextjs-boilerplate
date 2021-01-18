@@ -3,9 +3,8 @@ import Button from '@material-ui/core/Button'
 import Router from 'next/router'
 
 const AboutPage = () => {
-  function goHome() {
+  function goHome () {
     Router.push('/')
-    return
   }
 
   return (
